@@ -1,10 +1,11 @@
 import React from "react";
-import Header from "../header/Header";
+
+import MainContain from "./BodyContain";
 
 export default function Body() {
   return (
     <>
-      <Header />
+      <MainContain />
     </>
   );
 }

@@ -10,7 +10,7 @@ export default function Header() {
   return (
     <div>
       <header>
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark h5">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark h5 m-0">
           <div className="container-fluid">
             <Logo />
             <Burger />

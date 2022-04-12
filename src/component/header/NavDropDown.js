@@ -4,9 +4,9 @@ import DropDownItem from "./DropDownItem";
 export default function NavDropDown(props) {
   return (
     <>
-      <li className="nav-item dropdown p-3">
+      <li className="nav-item dropdown rounded-circle-navbar">
         <a
-          className="nav-link dropdown-toggle"
+          className="nav-link dropdown-toggle m-3"
           href="#"
           id={props.id}
           role={props.role}
